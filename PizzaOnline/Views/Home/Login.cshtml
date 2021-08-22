@@ -47,4 +47,12 @@
 
         window.location.href = url
     }
+
+    function SubmitLogin() {
+
+        $("#user_value").val($("#inputUser").val());
+        $("#user_pass").val($("#inputPass").val());
+
+        $("#form_submit_login").submit();
+    }
 </script>
