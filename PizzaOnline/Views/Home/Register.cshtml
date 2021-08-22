@@ -1,0 +1,99 @@
+﻿
+@{
+    ViewBag.Title = "ลงทะเบียน";
+}
+
+<div class="row" style="margin-top: 20px;">
+    <div class="col-lg-8 col-lg-offset-2 div-register">
+        <h2>Register</h2>
+
+        <div id="divRegister">
+            <div class="row">
+                <div class="col-lg-6">
+                    <label style="font-size: 20px;">
+                        <span><i class="fas fa-user"></i> ชื่อ:</span>
+                        <input class="form-control" id="CustFirstName" placeholder="ชื่อ" />
+                    </label>
+                </div>
+                <div class="col-lg-6">
+                    <label style="font-size: 20px;">
+                        <span>นามสกุล:</span>
+                        <input class="form-control" id="CustLastName" placeholder="นามสกุล" />
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <label style="font-size: 20px;">
+                        <span><i class="fas fa-phone-square-alt"></i> เบอร์โทร:</span>
+                        <input class="form-control" id="CustTel" placeholder="เบอร์โทร" />
+                    </label>
+                </div>
+                <div class="col-lg-6">
+                    <lable style="font-size: 20px;">
+                        <span><i class="fas fa-birthday-cake"></i> วันเกิด:</span>
+                        <input class="form-control" id="CustBirth" placeholder="วว/ดด/ปปปป" />
+                    </lable>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2" style="display: inline-block">
+                    <label style="font-size: 20px; ">
+                        <span><i class="far fa-grin"></i> ชาย:</span>
+                        <input type="radio" class="form-control" name="Sexual" />
+                    </label>
+
+                </div>
+                <div class="col-lg-2" style="display: inline-block">
+                    <label style="font-size: 20px; ">
+                        <span><i class="far fa-grin"></i> หญิง:</span>
+                        <input type="radio" class="form-control" name="Sexual" />
+                    </label>
+
+                </div>
+                <div class="col-lg-2" style="display: inline-block">
+                    <label style="font-size: 20px; ">
+                        <span><i class="far fa-grin"></i> ไม่ระบุ:</span>
+                        <input type="radio" class="form-control" name="Sexual" />
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label style="font-size:20px;">
+                        <span><i class="fas fa-envelope-square"></i> Email:</span>
+                        <input class="form-control" id="CustMail" placeholder="Email" />
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label style="font-size:20px;">
+                        <span> <i class="fas fa-key"></i> Password:</span>
+                        <input class="form-control" id="Custpass" placeholder="รหัสผ่าน" />
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <lable style="font-size:20px;">
+                        <span>Confirm Password:</span>
+                        <input class="form-control" id="Custpass" placeholder="ยืนยันรหัสผ่าน" />
+                    </lable>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12" style="text-align: center;">
+                <label style="font-size: 50px;">
+                    <button id="AddCart-CH01" class="btn btn-danger btn-add-cart" value="CH01">
+                        <span style="align-items: center;">สมัครสมาชิก  </span>
+
+                    </button>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
